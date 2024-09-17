@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(to left, #3462fc, #3f96ec);
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Memastikan body mengisi tinggi viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.heading {
+    color: white;
+    letter-spacing: 10px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.btn-custom {
+    color: white;
+    font-size: 15px;
+    margin: 5px;
+    letter-spacing: 1px; /* Mengurangi jarak antar huruf agar lebih mudah dibaca */
+    padding: 10px 20px; /* Menambahkan padding untuk meningkatkan klik area */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Menambahkan efek transisi untuk hover */
+}
+
+.btn-custom:hover {
+    color: #000000; /* Mengubah warna teks pada hover */
+}
+
+.icon-btn {
+    font-size: 24px; /* Menyesuaikan ukuran font ikon */
+    margin: 15px;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Menambahkan efek transisi */
+    letter-spacing: 10px;
+}
+
+.icon-btn:hover {
+    color: #ffffff; /* Mengubah warna ikon pada hover */
+}
+
+.icon-btn:focus, .icon-btn:active, .icon-btn:focus-visible {
+    outline: none;
+    border: none;
+}
+
+.btn-custom:focus, .btn-custom:active, .btn-custom:focus-visible {
+    outline: none;
+    border: none;
+}
